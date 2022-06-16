@@ -9,7 +9,7 @@ from bot import dispatcher, updater, botStartTime, IMAGE_URL, OWNER_ID, AUTHORIZ
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.telegram_helper.message_utils import *
 from .helper.telegram_helper.filters import CustomFilters
-from .modules import authorize, list
+from .modules import authorize, list, gplink
 
 
 def start(update, context):
